@@ -10,6 +10,8 @@
 
 5.Largest area hacker rank
 
-6.nice team
+6.nice team HACKER RANK
 
-7.COUNT PAIRS
+7.COUNT PAIRS HACKER RANK 
+
+8. MAX PAIRS HACKER RANK
