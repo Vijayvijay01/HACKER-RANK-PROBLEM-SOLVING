@@ -1,0 +1,20 @@
+def maxPairs(skillLevel, minDiff):
+    # Write your code here
+    sl = sorted(skillLevel)
+    i = 0
+    mid = len(sl) // 2
+    j = mid
+    pairs = 0
+    while i < mid and j < len(sl):
+        # print(i, j, len(sl))
+        while (sl[j] - sl[i] < minDiff):
+            j += 1
+            if j >= len(sl):
+                break
+        if j >= len(sl):
+            break
+        pairs += 1
+        i += 1
+        j += 1
+
+    return pairs
